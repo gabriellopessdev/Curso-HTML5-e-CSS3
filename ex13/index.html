@@ -11,9 +11,19 @@
     <p>Tente abrir esse sites em dispositivos diferentes.</p>
 
     <picture>
-        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
-        <img src="Imagens/foto-g.png" alt="Foto G">
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto G">
     </picture>
+
+    <h1>Reproduzindo Audios</h1>
+    <p>Audio em HTML5</p>
+    <!-- <audio src="media/Audio.mp3" controls autoplay></audio> -->
+    <audio preload="metadata" controls loop> 
+    <source src="media/Audio.mp3" type="audio/mpeg">
+    <source src="media/Audio.ogg" type="audio/ogg">
+    <source src="media/Audio.wav" type="audio/wav"> 
+    <p>Infelizmente seu navegador não consegue reproduzir audio <a href="media/Audio.mp3"Clique aqui para baixar o arquivo mp3.></a></p>
+    </audio>
 </body>
 </html>
