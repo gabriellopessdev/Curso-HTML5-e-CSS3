@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(25, 7, 30);
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.video-container a {
+    flex-basis: 50%; /* Para duas imagens por linha */
+    box-sizing: border-box;
+}
+h1{
+    color: whitesmoke;
+}
+img {
+    width: 100%; /* Ajustar a imagem ao tamanho do contêiner */
+    height: auto;
+    display: block;
+}
+body.pag002{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste conforme necessário */
+}
+body.pag003{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste conforme necessário */
+}
+body.pag004{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste conforme necessário */
+}
+body.pag005{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste conforme necessário */
+}
